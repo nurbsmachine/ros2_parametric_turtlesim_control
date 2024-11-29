@@ -1,4 +1,4 @@
-# Group Project Repository Submission Template 
+# ros2_parametric_turtlesim_control
 ## Index
   - [Overview](#overview) 
   - [Getting Started](#getting-started)
@@ -10,26 +10,38 @@
   - [Deployment](#deployment)
   - [Used or Referenced Projects](Used-or-Referenced-Projects)
 -->
-## MRAC0X(XX/XX): ClassName XX - Student Project Name
+## MRAC02(2024-25): Thesis- autonomous robotics cluster -HYBRIDNETICS
 <!--Write a few sentences of academic context and project description -->  
-This project aims to demonstrate a fantastic application using fascinating technologies, developed within the scope of the best class ever.   
+This project aims to demonstrate parametric control of turtlebots using ros2 and turtlesim, developed within the scope of the mrac02 thesis cluster.   
 ## Overview
 <!-- Write Overview about this project -->
-The project's justification, state-of-the-art, and inspiration live in this section.
+This project, ros2_parametric_turtlesim_control, demonstrates a coordinated control mechanism between two turtles in a ROS2-based turtlesim simulation. The system implements parametric behavior, allowing flexible control and interaction between the turtles.
+
+Key Features:
+
+*Parametric Control: Enables dynamic adjustment of target points and behaviors.
+
+*ROS2 Integration: Leverages ROS2 nodes, topics, and messages for seamless interaction.
+
+*Event-Driven Coordination: Triggers one turtle's behavior based on another's actions.
+
+*Docker Support: Simplified setup with an included Dockerfile.
+
+*Extensibility: Designed for scalability to handle more complex multi-agent interactions.
+
 
 ## Getting Started
 
 ### Prerequisites
 Ensure that you fulfill the following criteria to replicate this project.
-* Ubuntu LTS 20.04 <
+* Ubuntu 22.04 <
 * Python 3.7 <
 * Docker
 
 ### Depencies
 The project's dependencies include:
-* Numpy - for matrix manipulation
-* OpenCV - for image processing
-* ROS - for interfacing with the robot
+* turtlesim: Provides the turtlesim simulation environment.
+* ROS2 - for interfacing with the robot
 
 The dependencies are satisfied using the following sources:
 
