@@ -80,11 +80,10 @@ The project can be launched with the following command:
 This opens up `rviz` and shows the robot moving around
 
 ## Authors
-  - [Name](insert linkedin/webpage link) - role
+  - Arun_Prasad - researcher
 
 ## References
-- [K. Albee et al., “A robust observation, planning, and control pipeline for autonomous rendezvous with tumbling targets,” Frontiers in Robotics and AI, vol. 8, p. 234, 2021, doi: 10.3389/frobt.2021.641338.](https://www.frontiersin.org/articles/10.3389/frobt.2021.641338/full)
-
+-https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
 ## Credits
   - [Name](insert linkedin/webpage link) - role
 
